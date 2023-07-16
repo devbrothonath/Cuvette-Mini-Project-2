@@ -96,7 +96,7 @@ main {
   justify-content: space-between;
 }
 
-#page-links > ul {
+#page-links ul {
   list-style: none;
   padding-left: 50px;
   margin: 0;
@@ -107,7 +107,7 @@ main {
   font-weight: 400;
 }
 
-#page-links > ul > li {
+#page-links li {
   margin: 0 2rem;
   margin-top: 5px;
 }
@@ -134,6 +134,7 @@ input[type="search"] {
   background: #ffffff;
   border-radius: 20px 0 0 20px;
   padding-left: 20px;
+  outline: none;
 }
 
 button[type="submit"] {
@@ -281,6 +282,17 @@ button[type="submit"] > img {
   padding: 30px;
 }
 
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  line-height: 240%;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #143565;
+}
+
 .information h5 {
   color: #04285a;
   font-family: "Inter", sans-serif;
@@ -293,17 +305,6 @@ button[type="submit"] > img {
 .information p {
   padding-left: 20px;
   font-size: 16px;
-}
-
-.information {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  font-family: "Roboto", sans-serif;
-  line-height: 240%;
-  font-size: 16px;
-  letter-spacing: 1px;
-  color: #143565;
 }
 
 .information span {
